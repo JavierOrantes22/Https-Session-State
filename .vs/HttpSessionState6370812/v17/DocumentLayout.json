@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\xavio\\Documents\\HttpSessionState\\HttpSessionState6370812\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BD5D-D15D-4C62-A64A-778DF8393E5D}|HttpSessionState6370812\\HttpSessionState6370812.csproj|c:\\users\\xavio\\documents\\httpsessionstate\\httpsessionstate6370812\\httpsessionstate6370812\\httpsessionstate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD9BD5D-D15D-4C62-A64A-778DF8393E5D}|HttpSessionState6370812\\HttpSessionState6370812.csproj|solutionrelative:httpsessionstate6370812\\httpsessionstate.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD9BD5D-D15D-4C62-A64A-778DF8393E5D}|HttpSessionState6370812\\HttpSessionState6370812.csproj|C:\\Users\\xavio\\Documents\\HttpSessionState\\HttpSessionState6370812\\httpsessionstate6370812\\httpsessionstate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6FD9BD5D-D15D-4C62-A64A-778DF8393E5D}|HttpSessionState6370812\\HttpSessionState6370812.csproj|solutionrelative:httpsessionstate6370812\\httpsessionstate.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HttpSessionState.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\xavio\\Documents\\HttpSessionState\\HttpSessionState6370812\\HttpSessionState6370812\\HttpSessionState.aspx.cs",
+              "RelativeDocumentMoniker": "HttpSessionState6370812\\HttpSessionState.aspx.cs",
+              "ToolTip": "C:\\Users\\xavio\\Documents\\HttpSessionState\\HttpSessionState6370812\\HttpSessionState6370812\\HttpSessionState.aspx.cs",
+              "RelativeToolTip": "HttpSessionState6370812\\HttpSessionState.aspx.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAWwBgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T04:35:31.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HttpSessionState.aspx",
+              "DocumentMoniker": "C:\\Users\\xavio\\Documents\\HttpSessionState\\HttpSessionState6370812\\HttpSessionState6370812\\HttpSessionState.aspx",
+              "RelativeDocumentMoniker": "HttpSessionState6370812\\HttpSessionState.aspx",
+              "ToolTip": "C:\\Users\\xavio\\Documents\\HttpSessionState\\HttpSessionState6370812\\HttpSessionState6370812\\HttpSessionState.aspx",
+              "RelativeToolTip": "HttpSessionState6370812\\HttpSessionState.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-27T04:30:24.487Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
