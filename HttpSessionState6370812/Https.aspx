@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HttpSessionState.aspx.cs" Inherits="HttpSessionState6370812.HttpSessionState" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Https.aspx.cs" Inherits="HttpSessionState6370812.Https" %>
 
 <!DOCTYPE html>
 
@@ -10,30 +10,26 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
-        <div>
             <asp:Label ID="Label1" runat="server" Text="Enter Product"></asp:Label>
         </div>
         <p>
-            &nbsp;</p>
-        <p>
             <asp:Label ID="Label2" runat="server" Text="Category:"></asp:Label>
             <asp:DropDownList ID="ddlCategory" runat="server">
-               <asp:ListItem>Postres</asp:ListItem>
-       <asp:ListItem>Frutas</asp:ListItem>
+                        <asp:ListItem>Postres</asp:ListItem>
+<asp:ListItem>Frutas</asp:ListItem>
             </asp:DropDownList>
         </p>
         <p>
             <asp:Label ID="Label3" runat="server" Text="Supplier:"></asp:Label>
             <asp:DropDownList ID="ddlSupplier" runat="server">
-                 <asp:ListItem>Lido</asp:ListItem>
- <asp:ListItem>Sinai</asp:ListItem>
- <asp:ListItem>GreatValueFruits</asp:ListItem>
+                                <asp:ListItem>Lido</asp:ListItem>
+<asp:ListItem>Sinai</asp:ListItem>
+<asp:ListItem>GreatValueFruits</asp:ListItem>
             </asp:DropDownList>
         </p>
         <p>
             <asp:Label ID="Label4" runat="server" Text="Product:"></asp:Label>
-            <asp:Label ID="lblProduct" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtProduct" runat="server"></asp:TextBox>
         </p>
         <p>
             <asp:Label ID="Label5" runat="server" Text="Description"></asp:Label>
@@ -41,24 +37,25 @@
         </p>
         <p>
             <asp:Label ID="Label6" runat="server" Text="Image"></asp:Label>
-            <asp:Label ID="lblImage" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtImage" runat="server"></asp:TextBox>
         </p>
+        <p>
         <asp:Label ID="Label7" runat="server" Text="Price"></asp:Label>
-        <asp:Label ID="lblPrice" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtPrice" runat="server"></asp:TextBox>
+        </p>
         <p>
             <asp:Label ID="Label8" runat="server" Text="Number in stock"></asp:Label>
-            <asp:Label ID="lblNumberInStock" runat="server" Text="Label"></asp:Label>
-            <asp:Label ID="lblValueInStock" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtNumberInStock" runat="server"></asp:TextBox>
         </p>
+        <p>
         <asp:Label ID="Label9" runat="server" Text="Number in order"></asp:Label>
-        <asp:Label ID="lblNumberOnOrder" runat="server" Text="Label"></asp:Label>
-        <asp:Label ID="lblValueOnOrder" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtNumberOnOrder" runat="server"></asp:TextBox>
+        </p>
         <p>
             <asp:Label ID="Label10" runat="server" Text="Reorder level"></asp:Label>
-            <asp:Label ID="lblReorderLevel" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtReorderLevel" runat="server"></asp:TextBox>
         </p>
-        <p>
-            &nbsp;</p>
+        <asp:Button ID="btnConfirm" runat="server" OnClick="btnConfirm_Click" Text="Confirm" />
     </form>
 </body>
 </html>

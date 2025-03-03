@@ -11,7 +11,7 @@ namespace HttpSessionState6370812
 {
 
 
-    public partial class HttpSessionState
+    public partial class Https
     {
 
         /// <summary>
@@ -78,13 +78,13 @@ namespace HttpSessionState6370812
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control lblProduct.
+        /// Control txtProduct.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblProduct;
+        protected global::System.Web.UI.WebControls.TextBox txtProduct;
 
         /// <summary>
         /// Control Label5.
@@ -114,13 +114,13 @@ namespace HttpSessionState6370812
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control lblImage.
+        /// Control txtImage.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblImage;
+        protected global::System.Web.UI.WebControls.TextBox txtImage;
 
         /// <summary>
         /// Control Label7.
@@ -132,13 +132,13 @@ namespace HttpSessionState6370812
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// Control lblPrice.
+        /// Control txtPrice.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblPrice;
+        protected global::System.Web.UI.WebControls.TextBox txtPrice;
 
         /// <summary>
         /// Control Label8.
@@ -150,22 +150,13 @@ namespace HttpSessionState6370812
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// Control lblNumberInStock.
+        /// Control txtNumberInStock.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumberInStock;
-
-        /// <summary>
-        /// Control lblValueInStock.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblValueInStock;
+        protected global::System.Web.UI.WebControls.TextBox txtNumberInStock;
 
         /// <summary>
         /// Control Label9.
@@ -177,22 +168,13 @@ namespace HttpSessionState6370812
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// Control lblNumberOnOrder.
+        /// Control txtNumberOnOrder.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNumberOnOrder;
-
-        /// <summary>
-        /// Control lblValueOnOrder.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblValueOnOrder;
+        protected global::System.Web.UI.WebControls.TextBox txtNumberOnOrder;
 
         /// <summary>
         /// Control Label10.
@@ -204,12 +186,21 @@ namespace HttpSessionState6370812
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control lblReorderLevel.
+        /// Control txtReorderLevel.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblReorderLevel;
+        protected global::System.Web.UI.WebControls.TextBox txtReorderLevel;
+
+        /// <summary>
+        /// Control btnConfirm.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnConfirm;
     }
 }

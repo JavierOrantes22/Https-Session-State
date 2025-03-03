@@ -11,22 +11,28 @@ namespace HttpSessionState6370812
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
+            // Retrieve the session variables.
+            ddlCategory.SelectedValue = Session["ddlCategory"].ToString();
+            ddlSupplier.SelectedValue = Session["ddlSupplier"].ToString();
+            lblProduct.Text = Session["strProduct"].ToString();
+            txtDescription.Text = Session["strDescription"].ToString();
+            lblImage.Text = Session["strImage"].ToString();
+            Decimal decPrice = Convert.ToDecimal(Session["decPrice"]);
+            lblPrice.Text = decPrice.ToString("c");
+            lblNumberInStock.Text = Session["bytNumberInStock"].ToString();
+            lblNumberOnOrder.Text = Session["bytNumberOnOrder"].ToString();
+            lblReorderLevel.Text = Session["bytReorderLevel"].ToString();
 
-		}
+            // Compute and display the value in stock and the value on order.
+            Byte bytNumberInStock = Convert.ToByte(Session["bytNumberInStock"]);
+            Byte bytNumberOnOrder = Convert.ToByte(Session["bytNumberOnOrder"]);
+            Decimal decValueInStock = decPrice * bytNumberInStock;
+            Decimal decValueOnOrder = decPrice * bytNumberOnOrder;
+            lblValueInStock.Text = decValueInStock.ToString("c");
+            lblValueOnOrder.Text = decValueOnOrder.ToString("c");
 
-        protected void btnConfirm_Click(object sender, EventArgs e)
-        {
-            Session["ddlCategory"] = ddlCategory.SelectedValue;
-            Session["ddlSupplier"] = ddlSupplier.SelectedValue;
-            Session["strProduct"] = txtProduct.Text;
-            Session["strDescription"] = txtDescription.Text;
-            Session["strImage"] = txtImage.Text;
-            Session["decPrice"] = txtPrice.Text;
-            Session["bytNumberInStock"] = txtNumberInStock.Text;
-            Session["bytNumberOnOrder"] = txtNumberOnOrder.Text;
-            Session["bytReorderLevel"] = txtReorderLevel.Text;
-            // Go to the confirmation page.
-            Response.Redirect("ProductConfirmSessionVariables.aspx");
         }
+
+
     }
 }
